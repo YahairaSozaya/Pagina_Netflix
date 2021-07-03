@@ -1,0 +1,52 @@
+.contenedor_hero{
+    width: 600px;
+    margin:20px 0 100px 100px;
+}
+
+.contenedor_botones{
+    display:flex;
+}
+
+.boton_hero{
+    outline: none;
+    background: transparent;
+    padding:10px;
+    color:white;
+    width: 110px;
+    justify-content: center;
+    border-radius: 30px;
+    height: 45px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.title{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.subtitle{
+    font-size: 12px;
+    font-weight: thin;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+.red{
+    border:2px solid rgb(233,3,3);
+}
+
+.red:hover{
+    background: rgb(233,3,3);
+    cursor:pointer;
+}
+
+.gris{
+    border:2px solid rgb(95, 94, 94);
+    cursor:pointer;
+}
+
+.gris:hover{
+    border:2px solid white;
+}

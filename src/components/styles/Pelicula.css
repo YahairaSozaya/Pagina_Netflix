@@ -1,0 +1,68 @@
+.Pelicula_Item{
+    width: 100%;
+    height: 220px;
+    background-color: black;
+    display:grid;
+    grid-template-rows: 1fr fr 1fr;
+    align-items:center;
+    overflow: hidden;
+}
+
+.Pelicula_Item:hover > .imagen_contenedor{
+    height: 100%;
+    width: 120%;
+    transition: all 0.5s ease-out;
+    opacity:0.5;
+}
+
+.Pelicula_Item:hover > .contenedor_pelicula{
+    opacity:1;
+    color:white;
+}
+
+.contenedor_pelicula{
+    padding:10px;
+    justify-content: center;
+    position:absolute;
+    width: 250px;
+    opacity:0;
+}
+
+.titulo{
+    margin-bottom: 30px;
+    color:white; 
+}
+
+.nombre_boton{
+    display:grid;
+    grid-template-columns: 1fr 50px;
+}
+
+.boton_redondo{
+    background:transparent;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border:2px solid rgb(133, 129, 129);
+}
+
+.boton_redondo:hover{
+    border:2px solid white;
+}
+
+.imagen_contenedor{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen_pelicula{
+    width: 100%;
+    height:100%; 
+}
+
+
+
+
